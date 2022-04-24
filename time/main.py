@@ -7,5 +7,5 @@ goal = input_list[0]
 deadline = input_list[1]
 
 dealine_date = datetime.datetime.strptime(deadline, "%d.%m.%Y")
-print(dealine_date)
+print(f"This is your deadline {dealine_date}")
 datetime.datetime.today()

@@ -8,4 +8,6 @@ deadline = input_list[1]
 
 dealine_date = datetime.datetime.strptime(deadline, "%d.%m.%Y")
 print(dealine_date)
-datetime.datetime.today()
+today_date = datetime.datetime.today()
+
+time_till = dealine_date

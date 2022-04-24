@@ -1,7 +1,7 @@
 import datetime
 import tictactoe
 
-user_input = input("Enter your goal with a deadline separated by colon\n")
+user_input = input("Enter your goal with a deadline separated by colon!!!\n")
 input_list = user_input.split(":")
 
 goal = input_list[0]
